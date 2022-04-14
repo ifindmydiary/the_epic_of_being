@@ -1,0 +1,36 @@
+body.mandara{background-image:url(mandara.jpeg);}
+body.god{background-image:url(god.jpg);background-size:1000px 1300px;}
+
+header {border-bottom:3px solid white;
+        padding:20px;
+    }
+nav {border-right:3px solid white;
+    width: 130px;
+  height: 690px;
+  float:left;}
+
+nav ol {list-style:none;}
+nav {color:white; font-size:30px;}
+article {float:left; padding:60px;}
+h2{font-size:70px;
+color:red;}
+
+a {text-decoration:none;
+color:white;}
+
+span{padding: 160px;
+margin-top: 50px;}
+#cover {width: 200px; height:270px; margin-top:300px;}
+footer{margin-top:95px; }
+img {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
